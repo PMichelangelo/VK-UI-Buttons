@@ -34,7 +34,7 @@ export const Button: Component<ButtonProps> = (params) => {
     const [props, attrs] = splitProps(params, ["size", "variant", "disabled", "streched", "before", "after", "children"]);
     console.log(style)
     return (
-        <button {...attrs} class={`${style[props.variant]} ${style[props.size]}}`}
+        <button {...attrs} class={`${style[props.variant]} ${style[props.size]}`}
             disabled={props.disabled} > {props.children}</button >
     )
 }
