@@ -1,0 +1,11 @@
+body {
+    background-color: grey;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+
+}
